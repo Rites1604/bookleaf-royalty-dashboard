@@ -1,0 +1,19 @@
+book_code,author_code,title,isbn,genre,status,is_published,production_stage,publication_date,mrp,royalty_per_copy,copies_sold,royalty_earned,royalty_paid,royalty_pending,last_payout_date,print_partner,available_on,royalty_status
+BK001,AUTH001,Whispers of the Ganges,978-93-5XXXX-01-1,Literary Fiction,Published & Live,yes,,06/20/2023,399,35,342,11970,8400,3570,10/15/2025,In-House,"Amazon India, Flipkart, BookLeaf Store",Overdue
+BK002,AUTH001,The Saffron Diaries,978-93-5XXXX-02-8,Non-Fiction / Memoir,Published & Live,yes,,01/10/2024,450,42,189,7938,7938,0,12/01/2025,In-House,"Amazon India, BookLeaf Store",Paid
+BK003,AUTH002,Code & Karma,978-93-5XXXX-03-5,Self-Help / Technology,Published & Live,yes,,02/14/2023,350,30,876,26280,21000,5280,09/01/2025,Repro India,"Amazon India, Flipkart, Amazon US, BookLeaf Store",Overdue
+BK004,AUTH002,Startup Sutra,978-93-5XXXX-04-2,Business / Entrepreneurship,Published & Live,yes,,05/22/2024,499,48,1203,57744,50000,7744,11/15/2025,In-House,"Amazon India, Flipkart, Amazon US, Amazon UK, BookLeaf Store",Overdue
+BK005,AUTH003,Between Two Temples,978-93-5XXXX-05-9,Historical Fiction,Published & Live,yes,,07/05/2024,425,38,67,2546,0,2546,,Epitome Books,"Amazon India, BookLeaf Store",Overdue
+BK006,AUTH004,Debugging Life,978-93-5XXXX-06-6,Self-Help,Published & Live,yes,,11/30/2023,299,25,534,13350,10000,3350,08/20/2025,In-House,"Amazon India, Flipkart, BookLeaf Store",Overdue
+BK007,AUTH004,The Last Monsoon,978-93-5XXXX-07-3,Poetry,Published & Live,yes,,08/15/2024,199,15,123,1845,1845,0,12/01/2025,In-House,"Amazon India, BookLeaf Store",Paid
+BK008,AUTH005,Cardamom & Chaos,978-93-5XXXX-08-0,Contemporary Fiction,Published & Live,yes,,04/18/2023,375,32,445,14240,14240,0,12/01/2025,Repro India,"Amazon India, Flipkart, BookLeaf Store",Paid
+BK009,AUTH005,Letters from Lakshadweep,978-93-5XXXX-09-7,Travel / Non-Fiction,Published & Live,yes,,03/01/2024,550,55,201,11055,8000,3055,10/15/2025,In-House,"Amazon India, Amazon US, BookLeaf Store",Overdue
+BK010,AUTH006,Turban Tales,978-93-5XXXX-10-3,Humor / Essays,Published & Live,yes,,09/10/2024,325,28,88,2464,0,2464,,In-House,"Amazon India, BookLeaf Store",Overdue
+BK011,AUTH007,The Algorithm of Love,978-93-5XXXX-11-0,Romance,Published & Live,yes,,12/25/2022,299,25,1567,39175,35000,4175,11/15/2025,Repro India,"Amazon India, Flipkart, Amazon US, BookLeaf Store",Overdue
+BK012,AUTH007,Ctrl+Alt+Delete My Ex,978-93-5XXXX-12-7,Romance / Humor,Published & Live,yes,,02/14/2024,350,30,723,21690,18000,3690,10/15/2025,In-House,"Amazon India, Flipkart, BookLeaf Store",Overdue
+BK013,AUTH007,Midnight in Mysore,978-93-5XXXX-13-4,Thriller,In Production - Cover Design,no,Cover Design,,,,0,0,0,0,,,,
+BK014,AUTH008,Ghazal of the Forgotten,978-93-5XXXX-14-1,Poetry / Urdu Literature,Published & Live,yes,,01/26/2024,250,20,156,3120,3120,0,12/01/2025,Epitome Books,"Amazon India, BookLeaf Store",Paid
+BK015,AUTH009,Raising Roots,978-93-5XXXX-15-8,Parenting / Non-Fiction,In Production - Typesetting,no,Typesetting,,,,0,0,0,0,,,,
+BK016,AUTH009,The Nagpur Notebooks,978-93-5XXXX-16-5,Essays / Memoir,Published & Live,yes,,11/05/2024,299,25,34,850,0,850,,In-House,"Amazon India, BookLeaf Store",Overdue
+BK017,AUTH010,Durga’s Daughters,978-93-5XXXX-17-2,Literary Fiction,Published & Live,yes,,10/15/2023,475,45,612,27540,25000,2540,11/15/2025,Repro India,"Amazon India, Flipkart, Amazon US, BookLeaf Store",Overdue
+BK018,AUTH010,Howrah Nights,978-93-5XXXX-18-9,Crime / Thriller,Published & Live,yes,,01/20/2025,399,35,45,1575,0,1575,,In-House,"Amazon India, BookLeaf Store",Overdue

@@ -1,0 +1,13 @@
+book_code,author_code,amount,paid_on,note
+BK001,AUTH001,8400,10/15/2025,Cumulative royalties paid to date (latest payout)
+BK002,AUTH001,7938,12/01/2025,Cumulative royalties paid to date (latest payout)
+BK003,AUTH002,21000,09/01/2025,Cumulative royalties paid to date (latest payout)
+BK004,AUTH002,50000,11/15/2025,Cumulative royalties paid to date (latest payout)
+BK006,AUTH004,10000,08/20/2025,Cumulative royalties paid to date (latest payout)
+BK007,AUTH004,1845,12/01/2025,Cumulative royalties paid to date (latest payout)
+BK008,AUTH005,14240,12/01/2025,Cumulative royalties paid to date (latest payout)
+BK009,AUTH005,8000,10/15/2025,Cumulative royalties paid to date (latest payout)
+BK011,AUTH007,35000,11/15/2025,Cumulative royalties paid to date (latest payout)
+BK012,AUTH007,18000,10/15/2025,Cumulative royalties paid to date (latest payout)
+BK014,AUTH008,3120,12/01/2025,Cumulative royalties paid to date (latest payout)
+BK017,AUTH010,25000,11/15/2025,Cumulative royalties paid to date (latest payout)
