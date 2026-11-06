@@ -4,7 +4,7 @@ Bubble.io front end + n8n workflow + Claude (Anthropic API) for royalty summary 
 
 | Piece | Where |
 |---|---|
-| Bubble app (editor) | `riteshgaur221` – collaborator access granted to musavir@bookleafpub.in |
+| Bubble app (editor) | [bubble.io/page?id=riteshgaur221](https://bubble.io/page?id=riteshgaur221) – the editor is set to "Everyone can view" (the free plan can't invite collaborators) |
 | Live app | https://riteshgaur221.bubbleapps.io/version-test (free plan: deploying to live needs a paid plan) |
 | n8n workflow | `n8n/royalty-summary-workflow.json` (import into any n8n instance) |
 | Webhook | `POST https://bookleafassignment.app.n8n.cloud/webhook/royalty-summary` |
