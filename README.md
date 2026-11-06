@@ -155,7 +155,7 @@ JavaScript lives in `n8n/code/*.js` so it can be read and diffed).
 | Double click / repeat within 2 min | Respond: rejected | Log → Failed, "Duplicate request … try again in Ns" |
 | Anthropic 5xx / 429 / timeout | Retried 3×, then error branch | Log → Failed, "AI service error (HTTP …)" |
 | AI refuses / truncated / invalid JSON | Parse email → error branch | Log → Failed with the reason |
-| n8n unreachable | Bubble API Connector returns an error (errors are captured, not fatal) | Log → Failed, button re-enabled |
+| n8n unreachable / wrong secret | The API call fails; the page's "unexpected error" workflow marks this author's Processing logs as Failed | Log → Failed, button re-enabled |
 
 Every path ends in a response, so the Bubble button never spins forever.
 
@@ -219,6 +219,12 @@ curl -X POST https://bookleafassignment.app.n8n.cloud/webhook/royalty-summary \
   Same for dates – computing "as of" in Asia/Kolkata fixed an off-by-one day.
 - **Privacy rules over UI hiding** – the first idea was to filter searches on the page; rules
   on the server are the only thing that actually stops data reaching another author's browser.
+- **The first live send logged Failed although n8n had succeeded.** The API Connector had
+  "Include errors in response" ticked, which wraps the reply as `body.status`,
+  `body.email_subject`, and so on, while the call's fields were defined flat. Every field read
+  as empty. n8n already answers every application failure with HTTP 200 and `status: Failed`,
+  so I turned that option off. Transport errors such as a timeout or a wrong secret now go to
+  the page's error handler instead.
 - **Bubble's AI Agent** built the first versions of the login, dashboard, admin and author
   detail pages from written specs. I checked each one in the editor and finished the
   notification log and bulk send by hand once the free AI credits ran low. The Agent was fast
