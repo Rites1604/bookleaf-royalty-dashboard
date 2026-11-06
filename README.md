@@ -150,7 +150,7 @@ JavaScript lives in `n8n/code/*.js` so it can be read and diffed).
 
 | Failure | What happens | What the admin sees |
 |---|---|---|
-| Wrong secret | n8n returns 403 | Log → Failed, "Authorization data is wrong!" |
+| Wrong secret | n8n returns 403 before any node runs | Log → Failed (via the page error handler) |
 | Bad / empty payload | Respond: rejected | Log → Failed with the reason |
 | Double click / repeat within 2 min | Respond: rejected | Log → Failed, "Duplicate request … try again in Ns" |
 | Anthropic 5xx / 429 / timeout | Retried 3×, then error branch | Log → Failed, "AI service error (HTTP …)" |
